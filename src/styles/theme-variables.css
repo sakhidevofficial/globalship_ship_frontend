@@ -76,9 +76,9 @@
   color: var(--footer-title-color);
 }
 
-.footer a {
+/* .footer a {
   color: var(--footer-link-color);
-}
+} */
 
 .footer a:hover {
   color: var(--footer-link-hover-color);

@@ -1,0 +1,7 @@
+/* Tailwind entrypoint — keeps Tailwind directives in a plain CSS file
+   PostCSS will process this file and generate utility classes. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: you can add any global overrides here */

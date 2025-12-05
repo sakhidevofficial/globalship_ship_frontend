@@ -15,6 +15,7 @@ import HydrationProvider from '@/components/providers/hydration-provider'
 import ScrollTopButton from '@/components/scroll-top-button'
 
 import '@/icons/font/cartzillaIcons.css'
+import '@/styles/tailwind.css'
 import '@/styles/theme.scss'
 import '@/styles/theme-variables.css'
 
@@ -73,9 +74,9 @@ const RootLayout = ({ children }: React.PropsWithChildren) => (
               </AuthProvider>
             </ModalProvider>
           </OffcanvasProvider>
-          <div className="floating-buttons position-fixed top-50 end-0 z-sticky me-3 me-xl-4 pb-4">
+          {/* <div className="floating-buttons position-fixed top-50 end-0 z-sticky me-3 me-xl-4 pb-4">
             <ScrollTopButton scrollOffset={500} />
-          </div>
+          </div> */}
         </ProgressProvider>
       </ThemeProvider>
     </body>
