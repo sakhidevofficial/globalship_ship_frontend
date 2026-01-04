@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   title: 'Cartzilla Docs | Tooltips',
 }
 
+export const dynamic = 'force-dynamic'
+
 const PopoversDocsPage = () => (
   <>
     <section className="py-2 pb-sm-3">
