@@ -2,6 +2,9 @@
 
 import eslintConfigNext from "eslint-config-next";
 import eslintConfigPrettier from "eslint-config-prettier";
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 export default [
   {
