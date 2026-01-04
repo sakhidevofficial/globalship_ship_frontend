@@ -7,12 +7,12 @@
   "author": "https://createx.studio/",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
-    "build-icon-font": "node scripts/icon-font.mjs"
+    "build-icon-font": "node init && node scripts/icon-font.mjs"
   },
   "dependencies": {
     "@bprogress/next": "^3.2.11",
