@@ -69,11 +69,9 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
-.env
 .env.development.local
 .env.test.local
 .env.production.local
-.env.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -116,7 +114,6 @@ dist
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
-.vscode-test
 
 # yarn v2
 .yarn/cache
@@ -161,3 +158,8 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
+branch_structure.json
+.gitignore
